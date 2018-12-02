@@ -11,6 +11,11 @@ print(isinstance(a, Iterable))
 print(isinstance(a, Iterator))
 
 
+iter_rator = iter(a)
+print(isinstance(a, Iterable))
+print(isinstance(iter_rator, Iterator))
+
+
 def myiter():
      yield 1
 
