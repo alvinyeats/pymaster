@@ -21,6 +21,7 @@ class FrenchDeck:
 
 
 if __name__ == "__main__":
+    print(Card)
     beer_card = Card('7', 'diamond')
     print(beer_card)
 
@@ -31,6 +32,7 @@ if __name__ == "__main__":
     print(type(deck[1]))
     print(FrenchDeck.__bases__)
     print(Card.__bases__)
+
 
 
 
